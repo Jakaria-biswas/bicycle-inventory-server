@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/", (req, res) => {
-     res.send("the server working right now")
+     res.send("<h2 style='color:red'>the bicycle inventory management system application is working</h2>")
 })
 
 app.listen(port, () => {
